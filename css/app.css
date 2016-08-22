@@ -37,7 +37,11 @@ body {
 }
 
 #zero {
-  width: 225px;
+  width: 147px;
+}
+
+#dot {
+  width: 70px;
 }
 
 #clear {
@@ -59,7 +63,7 @@ body {
 
 .l-row {
   position: absolute;
-  top: 354px;
+  top: 334px;
 }
 
 .buttons {
@@ -85,6 +89,12 @@ body {
   background-color: #4AA3DF;
   top: 3px;
   box-shadow: inset 0px 1px 0px #5E626D, 0px 2px 0px 0px #45637F;
+}
+
+.pendingFunc {
+  !background-color: #c55adf;
+  !top: 3px;
+  !box-shadow: inset 0px 1px 0px #5E626D, 0px 2px 0px 0px #45637F;
 }
 
 .operator {
